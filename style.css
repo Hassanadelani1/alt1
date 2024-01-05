@@ -1,0 +1,45 @@
+.breadcrumps{
+    margin: 10px 0;
+}
+svg{
+    width: 20px;
+    vertical-align: middle;
+}
+.breadcrumps{
+    font-family:"Roboto", sans-serif;
+    padding:10px 48px;
+    box-shadow:0 4px 30px -10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+} 
+.breadcrumps ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding:0;
+    margin:0;
+    gap: 8px;
+}
+.breadcrumps ul li a{
+    text-decoration: none;
+    color:black;
+}
+.breadcrumps ul li a:hover{
+    color:rgb(88, 195, 209);
+}
+.breadcrumps ul li:last-child{
+    font-weight: bold;
+}
+.breadcrumps ul li.arrow svg{
+    width: 15px;
+}
+.href a {
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+}
+
+
+
+        
+    
